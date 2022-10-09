@@ -8,9 +8,9 @@ const App = () => {
   const [curImg, setCurImg] = React.useState('first')
 
   const showImgMap = {
-    'first': () => <img src={first} onClick={() => setCurImg('second')} />,
-    'second': () => <img src={second} onClick={() => setCurImg('third')} />,
-    'third': () => <img src={third} onClick={() => setCurImg('second')}/>
+    'first': () => <img src={first} onClick={() => setCurImg('second')} alt='' />,
+    'second': () => <img src={second} onClick={() => setCurImg('third')} alt=''/>,
+    'third': () => <img src={third} onClick={() => setCurImg('second')} alt=''/>
   }
 
   return (<main>{showImgMap[curImg]()}</main>)
