@@ -5,17 +5,25 @@
 }
 
 main {
-  margin: 0 auto;
-  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
   height: 100vh;
 }
 
 section {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
+  width: 80vw;
   height: 100%;
-  margin: 0 2vw;
+}
+
+div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: start;
   overflow: hidden;
   overflow-x: auto;
 }

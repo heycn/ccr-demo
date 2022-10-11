@@ -15,7 +15,11 @@ const App = () => {
 
   return (
     <main>
-      <section>{showImgMap[curImg]()}</section>
+      <section>
+        <div>
+          {showImgMap[curImg]()}
+        </div>
+      </section>
     </main>
   )
 }
