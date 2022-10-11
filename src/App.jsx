@@ -13,7 +13,11 @@ const App = () => {
     'third': () => <img src={third} onClick={() => setCurImg('second')} alt=''/>
   }
 
-  return (<main>{showImgMap[curImg]()}</main>)
+  return (
+    <main>
+      <section>{showImgMap[curImg]()}</section>
+    </main>
+  )
 }
 
 export default App
